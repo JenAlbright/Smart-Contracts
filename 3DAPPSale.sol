@@ -108,7 +108,7 @@ contract PreSale3DAPP is Pausable {
     uint256 public deadline;
 
     uint256 public tokenPrice = 10000; // 1 ETH = 10 000 Tokens
-    uint256 public minimalETH = 1000000000000000000; // minimal = 1 ETH
+    uint256 public minimalETH = 200000000000000000; // minimal = 0.2 ETH
 
     function PreSale3DAPP(address _tokenReward) {
         tokenReward = Token3DAPP(_tokenReward); // our token address
